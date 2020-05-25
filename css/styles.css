@@ -1,0 +1,179 @@
+body {font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* navbar */
+.container-fluid {
+  padding: 3% 15% 7% 15%;
+  font-family: 'Montserrat-black', sans-serif;
+  background-color: #ff4c68;
+}
+
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1.5rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+/* title */
+.headlineBox {
+  margin-top: 4.5rem;
+}
+
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+.titlePic {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* features */
+#features {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.featuresIcon {
+  padding: 20px 0;
+  color: #ef8172;
+}
+
+.featuresBox {
+  padding: 0 50px;
+}
+
+.featuresIcon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  font-family: 'Montserrat-black', sans-serif;
+  color: white;
+}
+
+.testH2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.testImage {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pressImg {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 600;
+}
+
+.pricingCol {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: #ff4c68;
+}
+
+.card-footer {
+  background-color: #ef8172;
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footerIcon {
+  padding: 1rem;
+}
+
+
+/* responsiveness */
+@media (max-width: 991px) {
+  .titlePic {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
